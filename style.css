@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto; 
+    background-color: rgb(5, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    flex-direction: column;
+}
+
+#logo {
+    width: 20px;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#name {
+    color: rgb(156, 166, 201);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 50px;
+}
+
+#va {
+    font-size: 40px;
+    color: rgb(156, 166, 201);
+    font-family: "Ga Maamli", sans-serif;
+}
+
+#voice {
+    width: 150px;
+    display: none;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, rgb(187, 69, 202), rgb(75, 154, 219));
+    padding: 12px; 
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgb(95, 138, 153); 
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 0px 4px 10px rgb(95, 138, 153); 
+    letter-spacing: 0.7px;
+}
